@@ -1,0 +1,71 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	background-color: dimgray;
+}
+
+@font-face {
+    font-family: 'Doves Type';
+    src: url('fonts/DovesTypeText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	align-items: left;
+	justify-content: left;
+}
+
+
+#title-container {
+	border-width: 4em;
+}
+	#doves-title {
+	  font-size:100px;
+	  font-family: 'Doves Type';
+	  display: flex;
+	  text-align: center;
+}
+
+		#blurtext {
+        font-size: 35px;
+        color: transparent;
+        text-shadow: 0 0 3px #000;
+        text-align: center;
+        margin: 5rem;
+}
+
+.nonblurlink {
+    font-size: 35px;
+    color: #5B5449;
+}
+
+a {
+    transition-duration: 0.7s;
+    text-shadow: 0 0 0 #000;
+}
+
+a:hover {
+    font-size: 38px;
+    color: brown;
+}
+
+#history-container{
+	max-width: 50vw;
+	margin-left: 20px;
+	box-align: left;
+}
+
+.glyph-container{
+	display: grid;
+	gap: 3rem;
+	max-width: 60vw;
+	grid-template-columns: repeat(8, 10fr);
+}
